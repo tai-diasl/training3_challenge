@@ -34,7 +34,7 @@ again = "sim"
 
 while again == "sim":
     left_right = input("Você entra numa gruta e agora está está em uma encruzilhada. Onde você quer ir? Digite 'esquerda' ou 'direita'\n")
-    if left_right == 'esquerda':
+    if left_right == "esquerda":
         print("Você escuta a voz de conde Mondego, que te seguiu até certa parte e também está dentro da gruta.")
         back_continue = input("O que você quer fazer? Digite 'retornar' ou 'continuar'.\n")
         if back_continue == "retornar":
