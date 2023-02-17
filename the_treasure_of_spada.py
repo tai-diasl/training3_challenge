@@ -43,13 +43,10 @@ while again == "yes":
             print("You arrive at a lake with beautiful turquoise waters.")
             jump_walk = input("Do you jump into the water or keep walking through the cave? Type 'jump' or 'walk'.\n")
             if jump_walk == "walk":
-                print(
-                    "You keep walking, and see another lake with not so crystal clear water and in this one, there are some sharp rocks.")
-                final = input(
-                    "Do you go into the water, go back to the other lake, or continue walking through the cave? Type 'go', 'go back' or 'walk'.\n")
+                print("You keep walking, and see another lake with not so crystal clear water and in this one, there are some sharp rocks.")
+                final = input("Do you go into the water, go back to the other lake, or continue walking through the cave? Type 'go', 'go back' or 'walk'.\n")
                 if final == "go":
-                    print(
-                        "*** You find the treasure! You take the chests from the bottom of the lake and put them inside the boat!")
+                    print("*** You find the treasure! You take the chests from the bottom of the lake and put them inside the boat!")
                     print("You join Mercédès, Albert, Jacopo and start a new journey!")
                     print("Good Luck! ***")
                 elif final == "go back":
@@ -62,4 +59,5 @@ while again == "yes":
             print("You are captured by Count Mondego and sent back to the Chatêau d'If...\nGAME OVER!")
     else:
         print("Oh no! There is a hole just around the corner. You fell in there. \nGAME OVER!")
-    again = input("\n\nLet's try again? Type 'yes' or 'no': ")
+    again = input("\nLet's try again? Type 'yes' or 'no': ")
+print("The End")
