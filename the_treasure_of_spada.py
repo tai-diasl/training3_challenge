@@ -4,7 +4,6 @@
 # This is the tip I leave: not always the most obvious path will guide you to a better place. Persist and focus!
 
 
-
 print('''
 *******************************************************************************
           |                   |                  |                     |
@@ -35,7 +34,7 @@ again = "yes"
 while again == "yes":
     left_right = input(
         "You enter a cave and now you are at a crossroads. Where do you want to go? Type 'left' or 'right'\n")
-    if left_right == 'left':
+    if left_right == "left":
         print(
             "You hear the voice of Count Mondego, who has followed you to a certain point and is also inside the cave.")
         back_continue = input("What do you want to do? Type 'return' or 'continue'\n")
